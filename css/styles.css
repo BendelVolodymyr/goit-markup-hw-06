@@ -61,6 +61,12 @@ input {
     font-family: inherit;
 }
 
+@media (min-width: 428px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 1157px) {}
+
+@media (min-width: 1158px) {}
+
 /* ====================== */
 
 .visually-hidden {
