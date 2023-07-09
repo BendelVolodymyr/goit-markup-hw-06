@@ -22,8 +22,8 @@
 <body>
     <header class="header-header">
         <div class="header-box container">
+            <a class="logo header__logo" href="./index.html">Web<span class="header_studio_logo">Studio</span></a>
             <nav class="nav">
-                <a class="logo header__logo" href="./index.html">Web<span class="header_studio_logo">Studio</span></a>
                 <ul class="menu">
                     <li class=""><a class="link_menu" href="./index.html">Studio</a></li>
                     <li class=""><a class="link_menu after_menu" href="./portfolio.html">Portfolio</a></li>
@@ -250,5 +250,45 @@
             </div>
         </div>
     </footer>
+    <!-- js-menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="window__icon" width="8" height="8" viewBox="0 0 32 32">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+        <ul class="mobile-menu">
+            <li><a href="" class="mobile-link">Studio</a></li>
+            <li><a href="" class="mobile-link after_menu">Portfolio</a></li>
+            <li><a href="" class="mobile-link">Contacts</a></li>
+        </ul>
+        <address class="mobile__address">
+            <ul class="mobile__address-contact">
+                <li><a class="mobile__address-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                </li>
+                <li><a class="mobile__address-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            </ul>
+        </address>
+        <div class="footer__icon">
+            <ul class="box-icon-link">
+                <li class="footer-list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color" width="24"
+                            height="24" viewBox="0 0 32 32">
+                            <use href="./images/icons.svg#icon-instagram-footer"></use>
+                        </svg></a></li>
+                <li class="footer-list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color" width="24"
+                            height="24" viewBox="0 0 32 32">
+                            <use href="./images/icons.svg#icon-twiter-footer"></use>
+                        </svg></a></li>
+                <li class="footer-list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color" width="24"
+                            height="24" viewBox="0 0 32 32">
+                            <use href="./images/icons.svg#icon-facebook-footer"></use>
+                        </svg></a></li>
+                <li class="footer-list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color" width="24"
+                            height="24" viewBox="0 0 32 32">
+                            <use href="./images/icons.svg#icon-linked-footer"></use>
+                        </svg></a></li>
+            </ul>
+        </div>
+    </div>
 
 </html>
