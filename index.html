@@ -56,7 +56,7 @@
     <main>
         <!-- section 1  (wrapper)-->
         <section class="section-one">
-            <div class="wrapper">
+            <div class="wrapper container">
                 <h1 class="wrap__content">Effective Solutions for Your Business</h1>
                 <button class="wrap__button" type="button" data-modal-open>Order Service</button>
             </div>
@@ -136,7 +136,7 @@
         <!-- section 4 -->
 
         <section class="team">
-            <div class="team__block">
+            <div class="team__block container">
                 <h2 class="team-title">Our Team</h2>
 
                 <ul class="team-ul">
@@ -249,8 +249,8 @@
         </section>
         <!-- section 5 -->
 
-        <section class="customers">
-            <div class="container">
+        <section class="customers container">
+            <div class="customers_box">
                 <h2 class="customers__text">Customers</h2>
                 <ul class="customers__list">
                     <li class="list__link"><a class="customers__link" href="">
@@ -288,7 +288,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="footer__box">
+        <div class="footer__box container">
             <div class="footer__content">
                 <a class="logo box-content-link" href="./index.html">Web<span class="footer__logo">Studio</span></a>
 
@@ -322,7 +322,7 @@
                 <p class="box__form__text">Subscribe</p>
 
                 <form class="footer__box__form">
-                    <label class="form_"><input class="footer__input" type="email" name="username"
+                    <label class="footer__form__input"><input class="footer__input" type="email" name="username"
                             placeholder="E-mail"></label>
                     <button class="footer__button" type="submit">Subscribe
                         <svg class="subscribe-button_icon" width="24" height="24" viewbox="0 0 32 32">
@@ -398,43 +398,45 @@
     </div>
     <!-- js-menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
-            <svg class="window__icon" width="8" height="8" viewbox="0 0 32 32">
-                <use href="./images/icons.svg#icon-close"></use>
-            </svg>
-        </button>
+        <div class="mobile-menu-container container">
+            <button class="menu-toggle js-close-menu">
+                <svg class="window__icon" width="8" height="8" viewbox="0 0 32 32">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
 
-        <ul class="mobile-menu">
-            <li><a href="" class="mobile-link one">Studio</a></li>
-            <li><a href="" class="mobile-link">Portfolio</a></li>
-            <li><a href="" class="mobile-link">Contacts</a></li>
-        </ul>
-        <address class="mobile__address">
-            <ul class="mobile__address-contact">
-                <li><a class="mobile__address-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
-                </li>
-                <li><a class="mobile__address-emeil" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <ul class="mobile-menu">
+                <li><a href="" class="mobile-link one">Studio</a></li>
+                <li><a href="" class="mobile-link">Portfolio</a></li>
+                <li><a href="" class="mobile-link">Contacts</a></li>
             </ul>
-        </address>
-        <div class="mobile__box__icon">
-            <ul class="mobile__box-link">
-                <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
-                            width="24" height="24" viewbox="0 0 32 32">
-                            <use href="./images/icons.svg#icon-instagram-footer"></use>
-                        </svg></a></li>
-                <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
-                            width="24" height="24" viewbox="0 0 32 32">
-                            <use href="./images/icons.svg#icon-twiter-footer"></use>
-                        </svg></a></li>
-                <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
-                            width="24" height="24" viewbox="0 0 32 32">
-                            <use href="./images/icons.svg#icon-facebook-footer"></use>
-                        </svg></a></li>
-                <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
-                            width="24" height="24" viewbox="0 0 32 32">
-                            <use href="./images/icons.svg#icon-linked-footer"></use>
-                        </svg></a></li>
-            </ul>
+            <address class="mobile__address">
+                <ul class="mobile__address-contact">
+                    <li><a class="mobile__address-contact" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                    </li>
+                    <li><a class="mobile__address-emeil" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                </ul>
+            </address>
+            <div class="mobile__box__icon">
+                <ul class="mobile__box-link">
+                    <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
+                                width="24" height="24" viewbox="0 0 32 32">
+                                <use href="./images/icons.svg#icon-instagram-footer"></use>
+                            </svg></a></li>
+                    <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
+                                width="24" height="24" viewbox="0 0 32 32">
+                                <use href="./images/icons.svg#icon-twiter-footer"></use>
+                            </svg></a></li>
+                    <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
+                                width="24" height="24" viewbox="0 0 32 32">
+                                <use href="./images/icons.svg#icon-facebook-footer"></use>
+                            </svg></a></li>
+                    <li class="mobile__list-icon"><a class="footer-link-icon" href=""><svg class="link-icon-color"
+                                width="24" height="24" viewbox="0 0 32 32">
+                                <use href="./images/icons.svg#icon-linked-footer"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
         </div>
     </div>
     <script src="./js/modal.js"></script>
