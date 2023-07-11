@@ -1187,6 +1187,10 @@ input {
         justify-content: center;
     }
 
+    .customers_box {
+        padding: 0 108px;
+    }
+
     .customers__list {
         max-width: 552px;
     }
@@ -1197,13 +1201,21 @@ input {
 
     .footer {
         padding: 97.5px 164px 96px 108px;
+        margin: 0 auto;
     }
 
     .footer__box {
+        width: 496px;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
         justify-content: left;
+    }
+
+    .footer__box.container {
+        padding-left: 108px;
+        margin: 0;
+        padding: 0;
     }
 
     .footer__content {
@@ -1227,6 +1239,7 @@ input {
         min-width: 264px;
     }
 
+
     .footer__form__input {
         padding: 0;
     }
@@ -1244,62 +1257,6 @@ input {
     .box-content-link {
         display: inline-block;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* .section-two {
-        flex-wrap: wrap;
-        justify-content: center;
-    } */
-
-
-
-
-
-
-
-
-    /* .team-box>img {
-
-        width: auto;
-        height: auto;
-    } */
-
-
-
-    /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 1158px) {
@@ -1307,6 +1264,11 @@ input {
     .container {
         max-width: 1128px;
         padding: 0;
+    }
+
+    .header-header {
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .header-box {
@@ -1340,10 +1302,14 @@ input {
 
 
     .section-one {
+        max-width: 1440px;
+        margin: 0 auto;
         padding: 188px 0;
     }
 
     .section-two {
+        max-width: 1440px;
+        margin: 0 auto;
         padding: 120px 0;
         display: flex;
         justify-content: center;
@@ -1381,6 +1347,8 @@ input {
     }
 
     .section-three {
+        max-width: 1440px;
+        margin: 0 auto;
         display: block;
         display: flex;
         justify-content: center;
@@ -1400,6 +1368,8 @@ input {
         display: flex;
         justify-content: center;
         align-items: center;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .team-ul {
@@ -1410,6 +1380,8 @@ input {
 
     .customers {
         padding: 120px 0;
+        max-width: 1440px;
+        margin: 0 auto;
     }
 
     .customers__list {
@@ -1423,6 +1395,8 @@ input {
     }
 
     .footer {
+        max-width: 1440px;
+        margin: 0 auto;
         padding: 100px 0;
     }
 
@@ -1435,8 +1409,11 @@ input {
     }
 
     .footer__box {
+        width: 100%;
         gap: 0;
     }
+
+
 }
 
 @media screen and (min-device-pixel-ratio: 2),
