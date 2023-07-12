@@ -589,9 +589,10 @@ input {
 }
 
 .footer__box {
-    width: 100%;
+    max-width: 268px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 72px;
 }
 
@@ -609,7 +610,8 @@ input {
 
 .box-content-text {
     max-width: 268px;
-    text-align: center;
+    width: 100%;
+    text-align: start;
 }
 
 .box-content-link {
@@ -670,8 +672,9 @@ input {
 .footer__box__form {
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
     align-items: center;
+    row-gap: 16px;
+
 }
 
 .footer__form__input {
@@ -1212,6 +1215,7 @@ input {
         flex-wrap: wrap;
         gap: 72px 24px;
         justify-content: left;
+        align-items: normal;
     }
 
     .footer__box.container {
