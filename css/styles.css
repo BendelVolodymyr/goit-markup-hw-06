@@ -1158,6 +1158,7 @@ input {
     }
 
     .section-two-content {
+        font-weight: 400;
         flex-direction: column;
         align-self: stretch;
         height: 72px;
