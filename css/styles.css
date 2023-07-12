@@ -589,7 +589,6 @@ input {
 }
 
 .footer__box {
-    max-width: 268px;
     display: flex;
     flex-direction: column;
     align-items: center;
