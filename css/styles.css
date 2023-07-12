@@ -1209,7 +1209,7 @@ input {
         width: 496px;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
+        gap: 72px 24px;
         justify-content: left;
     }
 
@@ -1252,7 +1252,7 @@ input {
 
     .footer__box__form {
         flex-direction: row;
-        gap: 72px 24px;
+        gap: 24px;
 
     }
 
